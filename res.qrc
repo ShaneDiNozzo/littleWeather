@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="Banner">
+    <file>wbanner2.jpg</file>
+  </qresource>
+  <qresource prefix="Icon">
+    <file>wicon.png</file>
+    <file>wicon.ico</file>
+  </qresource>
+</RCC>
