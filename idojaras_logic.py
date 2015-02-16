@@ -119,7 +119,6 @@ class MainWindowClass(QtWidgets.QMainWindow, form_class):
         try:
             self.get_weather_info(self.location_getter[0][1], self.location_getter[0][0])
         except KeyError:
-            QtWidgets.QMessageBox.warning(self, 'Hey!', 'City not found!')
             self.erezheto.setText('City not found!')
             self.erezheto.setStyleSheet('QLabel#erezheto_homerseklet_label {color: red}')
 
